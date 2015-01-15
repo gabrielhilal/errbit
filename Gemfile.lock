@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/gabrielhilal/errbit_gitlab_plugin.git
+  revision: 0015d37a3d8be4bf565ce0484631b962558ca176
+  specs:
+    errbit_gitlab_plugin (0.1.0)
+      errbit_plugin (~> 0.4, >= 0.4.0)
+      gitlab (~> 3.0.0, >= 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -107,9 +115,6 @@ GEM
     errbit_github_plugin (0.1.0)
       errbit_plugin
       octokit
-    errbit_gitlab_plugin (0.1.0)
-      errbit_plugin (~> 0.4, >= 0.4.0)
-      gitlab (~> 3.0.0, >= 3.0.0)
     errbit_jira_plugin (0.2.0)
       errbit_plugin
       jira-ruby
@@ -410,7 +415,7 @@ DEPENDENCIES
   errbit_bitbucket_plugin
   errbit_fogbugz_plugin
   errbit_github_plugin
-  errbit_gitlab_plugin
+  errbit_gitlab_plugin!
   errbit_jira_plugin
   errbit_lighthouse_plugin
   errbit_pivotal_plugin
