@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/gabrielhilal/errbit_gitlab_plugin.git
+  remote: https://github.com/realcompare/errbit_gitlab_plugin
   revision: 0015d37a3d8be4bf565ce0484631b962558ca176
   specs:
     errbit_gitlab_plugin (0.1.0)
